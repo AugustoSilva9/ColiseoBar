@@ -1,0 +1,27 @@
+.texto {
+  font-family: $textos;
+  font-size: 1.2rem;
+  color: $colortx;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 2rem auto;
+  justify-content: center;
+  div {
+    text-align: center;
+    width: 25%;
+    img {
+      width: 85%;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .contenedor {
+    div {
+      width: 50%;
+    }
+  }
+}

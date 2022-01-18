@@ -7,4 +7,30 @@ footer {
   padding: 0 1rem;
   background-color: $bg_oscuro;
   color: white;
+  .iconos {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    margin-top: 0.8rem;
+    .logo {
+      margin-top: 0.8rem;
+      width: 90%;
+      text-align: center;
+    }
+    .horarios {
+      margin-top: 0.8rem;
+      width: 90%;
+      text-align: center;
+    }
+    .iconos {
+      margin-top: 0.8rem;
+      width: 90%;
+      justify-content: center !important;
+    }
+  }
 }

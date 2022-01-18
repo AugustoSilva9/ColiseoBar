@@ -1,1 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Hammersmith+One&family=Itim&display=swap");
+
+$marca: "Calistoga", cursive;
+$titulos: "Hammersmith One", sans-serif;
+$textos: "Itim", cursive;
+$colortx: rgb(7, 7, 7);
 $bg_oscuro: rgb(31, 38, 38);
+
+.titulosProd {
+  text-align: center;
+  font-family: $titulos;
+  padding: 1.5rem 0;
+}
