@@ -1,0 +1,24 @@
+header {
+  background-color: $bg_oscuro;
+  height: 5rem;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+}
+.navbar-collapse {
+  z-index: 2;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.nav-link {
+  background-color: $bg_oscuro;
+  color: white !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
