@@ -8,30 +8,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 1rem;
+  margin: 1rem 0 2rem;
   padding: 0 1rem;
 }
-/* .productos div a img {
-  width: 28rem;
-  margin: 1rem;
-  border: solid 2px black;
-} */
-/* .efecto:hover {
-  transition: all 1s;
-  transform: scale(1.1);
-} */
-/*Prueba de efecto con un texto abajo */
-/* .menu {
-  width: 28rem;
-  height: 28rem;
-  margin: 1rem;
-  background-image: url(../img/cocktails.jpg);
-  background-size: cover;
-} */
+
 $menuImg1: url(../img/cocktails.jpg);
 @mixin menus($menuImg) {
-  width: 28rem;
-  height: 28rem;
+  width: 27rem;
+  height: 27rem;
   margin: 1rem;
   background-image: $menuImg;
   background-size: cover;
@@ -43,8 +27,8 @@ div #cocktail,
 #birras,
 #whiskys,
 #comida {
-  width: 28rem;
-  height: 28rem;
+  width: 27rem;
+  height: 27rem;
   background-color: rgba(31, 38, 38, 0.9);
   opacity: 0;
   transition: 0.2s;
@@ -68,14 +52,15 @@ a.efecto {
   position: absolute;
   color: white;
   font-size: 2rem;
-  padding-top: 13rem;
-  padding-left: 10rem;
+  padding-top: 12rem;
+  padding-left: 9rem;
 }
 
 @media screen and (max-width: 600px) {
   @mixin menus($menuImg) {
-    width: 18rem;
-    height: 18rem;
+    width: 17rem;
+    height: 17rem;
+    margin: 1rem 0;
   }
   .menu1 {
     @include menus($menuImg1);
@@ -84,11 +69,11 @@ a.efecto {
   #birras,
   #whiskys,
   #comida {
-    width: 18rem;
-    height: 18rem;
+    width: 17rem;
+    height: 17rem;
   }
   a.efecto {
-    padding-top: 8rem;
-    padding-left: 5rem;
+    padding-top: 7rem;
+    padding-left: 4rem;
   }
 }

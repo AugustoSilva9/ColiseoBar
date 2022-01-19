@@ -7,8 +7,20 @@ footer {
   padding: 0 1rem;
   background-color: $bg_oscuro;
   color: white;
+  .logo {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
   .iconos {
     font-size: 2rem;
+    margin-right: 1.5rem;
+    a {
+      text-decoration: none;
+      color: white;
+      margin-right: 0.8rem;
+    }
   }
 }
 
@@ -29,6 +41,7 @@ footer {
     }
     .iconos {
       margin-top: 0.8rem;
+      margin-right: 0;
       width: 90%;
       justify-content: center !important;
     }
