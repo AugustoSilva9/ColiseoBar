@@ -1,0 +1,53 @@
+.seccion {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .formulario {
+    width: 40%;
+    line-height: 2rem;
+    div {
+      margin-bottom: 0.8rem;
+      input {
+        width: 60%;
+      }
+      textarea {
+        width: 60%;
+      }
+    }
+  }
+  iframe {
+    width: 50%;
+  }
+}
+.boton {
+  background-color: #ff9a30;
+  width: 30% !important ;
+}
+
+@media screen and (max-width: 768px) {
+  .seccion {
+    flex-direction: column;
+    .formulario {
+      width: 90%;
+      margin: auto;
+      div {
+        input {
+          width: 90%;
+        }
+        textarea {
+          width: 90%;
+        }
+      }
+    }
+    iframe {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  .boton {
+    width: 45% !important;
+  }
+}

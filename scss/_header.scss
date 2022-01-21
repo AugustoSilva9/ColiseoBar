@@ -1,19 +1,28 @@
 header {
   background-color: $bg_oscuro;
-  height: 5rem;
-  padding: 0.5rem 1rem;
+  height: 6rem;
+  padding: 0 1rem 0 0;
   justify-content: center;
+  nav {
+    .container-fluid {
+      padding-left: 0;
+    }
+  }
 }
 .navbar-collapse {
   z-index: 2;
+  text-align: center;
 }
 a {
   text-decoration: none;
   color: white;
 }
+.navbar {
+  padding: 0;
+}
 .navbar-brand {
+  padding: 0;
   font-size: 2rem;
-  font-family: $marca;
   font-weight: bold;
 }
 .nav-link {
@@ -22,5 +31,11 @@ a {
   font-size: 1.2rem;
   font-weight: bold;
 }
-@media screen and (max-width: 600px) {
+.logoTamano {
+  height: 6rem;
+}
+@media screen and (min-width: 388px) {
+  .navbar-toggler {
+    margin-left: 40%;
+  }
 }

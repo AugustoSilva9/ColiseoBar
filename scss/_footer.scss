@@ -3,15 +3,13 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
-  padding: 0 1rem;
+  height: 6rem;
+  padding: 0 1rem 0 0;
   background-color: $bg_oscuro;
   color: white;
-  .logo {
-    a {
-      text-decoration: none;
-      color: white;
-    }
+  .horarios {
+    text-align: center;
+    padding-top: 1rem;
   }
   .iconos {
     font-size: 2rem;
@@ -37,7 +35,7 @@ footer {
     .horarios {
       margin-top: 0.8rem;
       width: 90%;
-      text-align: center;
+      padding-top: 0;
     }
     .iconos {
       margin-top: 0.8rem;

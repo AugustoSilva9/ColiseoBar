@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Hammersmith+One&family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Itim&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,20 +11,26 @@
 
 header {
   background-color: #1f2626;
-  height: 5rem;
-  padding: 0.5rem 1rem;
+  height: 6rem;
+  padding: 0 1rem 0 0;
   justify-content: center; }
+  header nav .container-fluid {
+    padding-left: 0; }
 
 .navbar-collapse {
-  z-index: 2; }
+  z-index: 2;
+  text-align: center; }
 
 a {
   text-decoration: none;
   color: white; }
 
+.navbar {
+  padding: 0; }
+
 .navbar-brand {
+  padding: 0;
   font-size: 2rem;
-  font-family: "Calistoga", cursive;
   font-weight: bold; }
 
 .nav-link {
@@ -33,18 +39,25 @@ a {
   font-size: 1.2rem;
   font-weight: bold; }
 
+.logoTamano {
+  height: 6rem; }
+
+@media screen and (min-width: 388px) {
+  .navbar-toggler {
+    margin-left: 40%; } }
+
 footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 5rem;
-  padding: 0 1rem;
+  height: 6rem;
+  padding: 0 1rem 0 0;
   background-color: #1f2626;
   color: white; }
-  footer .logo a {
-    text-decoration: none;
-    color: white; }
+  footer .horarios {
+    text-align: center;
+    padding-top: 1rem; }
   footer .iconos {
     font-size: 2rem;
     margin-right: 1.5rem; }
@@ -65,7 +78,7 @@ footer {
     footer .horarios {
       margin-top: 0.8rem;
       width: 90%;
-      text-align: center; }
+      padding-top: 0; }
     footer .iconos {
       margin-top: 0.8rem;
       margin-right: 0;
@@ -180,3 +193,42 @@ a.efecto {
     flex-direction: column; }
     .carta .tarjeta {
       width: 100%; } }
+
+.seccion {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .seccion .formulario {
+    width: 40%;
+    line-height: 2rem; }
+    .seccion .formulario div {
+      margin-bottom: 0.8rem; }
+      .seccion .formulario div input {
+        width: 60%; }
+      .seccion .formulario div textarea {
+        width: 60%; }
+  .seccion iframe {
+    width: 50%; }
+
+.boton {
+  background-color: #ff9a30;
+  width: 30% !important; }
+
+@media screen and (max-width: 768px) {
+  .seccion {
+    flex-direction: column; }
+    .seccion .formulario {
+      width: 90%;
+      margin: auto; }
+      .seccion .formulario div input {
+        width: 90%; }
+      .seccion .formulario div textarea {
+        width: 90%; }
+    .seccion iframe {
+      width: 90%;
+      margin: auto; }
+  .boton {
+    width: 45% !important; } }
