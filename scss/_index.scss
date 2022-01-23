@@ -18,6 +18,12 @@
     }
   }
 }
+.subtitulo {
+  text-align: center;
+  font-family: $titulos;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 @media screen and (max-width: 600px) {
   .contenedor {
     div {

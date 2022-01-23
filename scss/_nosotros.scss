@@ -1,0 +1,18 @@
+.nosotros {
+  width: 50%;
+  padding: 0.5rem;
+}
+.nosotrosImg {
+  width: 50%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nosotros {
+    width: 90%;
+  }
+  .nosotrosImg {
+    width: 90%;
+  }
+}
