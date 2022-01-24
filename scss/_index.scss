@@ -3,6 +3,9 @@
   font-size: 1.2rem;
   color: $colortx;
 }
+.carousel {
+  width: 75%;
+}
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -23,6 +26,11 @@
   font-family: $titulos;
   font-size: 1.2rem;
   font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 600px) {
   .contenedor {

@@ -12,7 +12,6 @@
   padding: 0 1rem;
 }
 
-$menuImg1: url(../img/cocktails.jpg);
 @mixin menus($menuImg) {
   width: 27rem;
   height: 27rem;
@@ -22,6 +21,15 @@ $menuImg1: url(../img/cocktails.jpg);
 }
 .menu1 {
   @include menus($menuImg1);
+}
+.menu2 {
+  @include menus($menuImg2);
+}
+.menu3 {
+  @include menus($menuImg3);
+}
+.menu4 {
+  @include menus($menuImg4);
 }
 div #cocktail,
 #birras,

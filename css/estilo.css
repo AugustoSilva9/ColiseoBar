@@ -90,6 +90,9 @@ footer {
   font-size: 1.2rem;
   color: #070707; }
 
+.carousel {
+  width: 75%; }
+
 .contenedor {
   display: flex;
   flex-direction: row;
@@ -108,6 +111,10 @@ footer {
   font-family: "Hammersmith One", sans-serif;
   font-size: 1.2rem;
   font-weight: bold; }
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: 100%; } }
 
 @media screen and (max-width: 600px) {
   .contenedor div {
@@ -131,6 +138,27 @@ footer {
   height: 27rem;
   margin: 1rem;
   background-image: url(../img/cocktails.jpg);
+  background-size: cover; }
+
+.menu2 {
+  width: 27rem;
+  height: 27rem;
+  margin: 1rem;
+  background-image: url(../img/birras.jpg);
+  background-size: cover; }
+
+.menu3 {
+  width: 27rem;
+  height: 27rem;
+  margin: 1rem;
+  background-image: url(../img/whisky.jpg);
+  background-size: cover; }
+
+.menu4 {
+  width: 27rem;
+  height: 27rem;
+  margin: 1rem;
+  background-image: url(../img/comida.jpg);
   background-size: cover; }
 
 div #cocktail,
