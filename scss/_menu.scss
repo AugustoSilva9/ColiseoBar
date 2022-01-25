@@ -73,6 +73,15 @@ a.efecto {
   .menu1 {
     @include menus($menuImg1);
   }
+  .menu2 {
+    @include menus($menuImg2);
+  }
+  .menu3 {
+    @include menus($menuImg3);
+  }
+  .menu4 {
+    @include menus($menuImg4);
+  }
   div #cocktail,
   #birras,
   #whiskys,
